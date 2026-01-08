@@ -1,0 +1,27 @@
+#box1{
+    background-color: purple;
+    width: 100vw;
+    height: 100vh;
+}
+
+#box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px;
+    width: 1000px;
+    height: auto;
+}
+
+.ex {
+    width: 100px;
+    height: 100px;
+}
+
+#a {
+    background-color: black;
+
+}
+#b {
+    background-color: white;
+
+}

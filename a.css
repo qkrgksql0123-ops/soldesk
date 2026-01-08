@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top{
+    background-color: pink;
+    width: 100vw;
+    height: 120px;
+    display: flex;
+}
+#top_left{
+    background-color: green;
+    flex: 2;
+    color: brown;
+    height: 120px;
+    position: relative;
+}
+#top_left i{
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+#top_right{
+    flex: 8;
+    background-color: hotpink;
+    height: 120px;
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    
+}
+#top_right img{
+    position: absolute;
+    height: 120px;
+    width: 500px;
+    left: 200px;
+    top: 0px;
+    
+}
+
+.menu{
+    background-color: red;
+    height: 50px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+#menu1{
+    background-color: gray;
+    height: 50px;
+    width: 400px;
+    display: flex;
+    justify-content: center;  /* 가로 방향 중앙 정렬 */
+}
+
+.main{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+#menu1 powders a {
+    text-decoration: none;
+    color: white;
+}
+
+#main_left{
+    flex: 1.5;
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+#main_center{
+    flex: 7.5;
+    background-color: yellow;
+}
+#main_right{
+    flex: 1;
+    background-color: green;
+    position: relative;
+}
+
+#one{
+    position: absolute;
+    top: 10px;
+    background-color: green;
+    height: 100px;
+    width: 90%;
+    left: 0px;
+    margin-left: 10px;
+    margin-right: 3px;
+    padding: 10px;
+    
+}
+
+#two{
+    position: absolute;
+    top: 130px;
+    background-color: red;
+    height: 130px;
+    width: 90%;
+    left: 0px;
+    margin-left: 10px;
+    margin-right: 3px;
+    margin-bottom: 10px;
+}
+
+#three{
+    position: absolute;
+    top: 280px;
+    background-color: pink;
+    height: 130px;
+    width: 90%;
+    left: 0px;
+    margin-left: 10px;
+    margin-right: 3px;
+    margin-bottom: 10px;
+}
+#banner1 { position: absolute; top: 40px; width: 100%; height: 50px; }
+#banner2 { position: absolute; top: 80px; width: 100%; height: 50px; }
+#banner3 { position: absolute; top: 120px; width: 100%; height: 50px; }
+#banner4 { position: absolute; top: 0px; width: 100%; height: 50px; }
+
+
+/* 모든 배너 안의 이미지를 부모 크기에 맞춤 */
+#main_right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* 이미지가 찌그러지지 않고 비율에 맞게 채워짐 */
+    display: block;
+}
+#cat{
+    height: 80%;
+    width: 100px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#one input {
+    width: 40%;       /* 박스 너비의 80%만큼 차지 */
+    height: 25px;     /* 높이 조절 */
+}
+
+#main_center img{
+    border: 4px;
+    border-color: rgb(0, 255, 26);
+    border-style: solid;
+    width: 200px;
+    height: 200px;
+}
+.foot{
+    position: fixed;
+    width: 100vw;
+    height: 200px;
+    background-color: blue;
+    bottom: 20px;
+    color: grey;
+    font-size: 15px;
+}
+
+#two i {
+    margin-left: 60px;
+}
